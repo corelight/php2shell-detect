@@ -1,0 +1,7 @@
+[package]
+description = A Zeek package for detecting suspicious PHP HTTP request patterns related to CVE-2026-109618 / CVE-2026-109619 - Potential RCE in PHP longjmp() memory handling.
+tags = HTTP, PHP, CVE
+script_dir = scripts
+test_command = make test
+version = 1.0.0
+depends = zeek >=7.0.0

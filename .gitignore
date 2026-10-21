@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+!testing/Baseline/**/*.log
+/testing/.tmp/
+/testing/.btest.failed.dat
+__pycache__/
+*.pcap*
+*.pcapng*
+*.cap
+*.cap.gz
+!/testing/Traces/merged_zeek_HTTP_btest.pcap.zip
